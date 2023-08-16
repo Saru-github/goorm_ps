@@ -15,6 +15,6 @@ end_hour = cur_hour + total_minute // 60
 
 # 시 가 24가 넘어 갔을 땐, 0으로 리셋
 if end_hour >= 24:
-	end_hour %= 24
+    end_hour %= 24
 
 print(end_hour, end_minute)
