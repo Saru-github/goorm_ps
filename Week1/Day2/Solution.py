@@ -17,4 +17,4 @@ end_hour = cur_hour + total_minute // 60
 if end_hour >= 24:
 	end_hour %= 24
 
-print (end_hour, end_minute)
+print(end_hour, end_minute)
