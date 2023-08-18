@@ -2,7 +2,7 @@
 
 # 무게와 반복 횟수 입력 받기
 W, R = map(int, input().split())
-# 1RM 구하는 식 적용 및 소수점 버리기
+# 1RM 구하는 식 적용 및 소수점 제거
 RM = int(W * (1 + R / 30))
 # 1RM 출력
 print(RM)
